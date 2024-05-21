@@ -7,13 +7,13 @@
 If you're adding through Xcode's Swift Package Manager integration (Xcode 11 and higher), you can simply use:
 
 ```
-https://github.com/chrisaljoudi/swift-log-oslog.git
+https://github.com/tkausch/swift-log-oslog.git
 ```
 
 And use `0.2.1` as the base version. If adding as a dependency in your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/chrisaljoudi/swift-log-oslog.git", .from("0.2.1"))
+.package(url: "https://github.com/tkausch/swift-log-oslog.git", .from("0.2.1"))
 ```
 
 ## Usage
