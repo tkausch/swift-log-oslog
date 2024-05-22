@@ -1,6 +1,11 @@
 import Foundation
 import Logging
 import struct Logging.Logger
+
+#if os(Linux)
+    // this package is not available for Linux
+#else
+
 import os
 
 public struct LoggingOSLog: LogHandler {
@@ -88,3 +93,5 @@ extension OSLogType {
         }
     }
 }
+
+#endif
